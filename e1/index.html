@@ -3,19 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>E1: Firma de email</title>
-	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<main>
-		<div class="firma">
-			<img class="logo" src="assets/img/adalab-logo.png" alt="adalab-logo">
-			<div class="info">
-				<p class="nombre">Carlos Mañas</p>
-				<p class="puesto">Frontend teacher</p>
-				<p class="mail">carlos@adalab.es</p>
-			</div>
-
-		</div>
+		<table class="firma" cellspacing="0" cellpadding="0" style="margin-bottom: 30px; padding: 30px">
+			<tr>
+				<td rowspan="3" style=" padding-right: 15px; vertical-align: text-top;">
+					<img src="assets/img/adalab-logo.png" alt="adalab-logo" style="width: 32px;">
+				</td>
+				<td style="color: #54575A; font-weight: bold; font-family: Arial; ">Carlos Mañas</td>
+			</tr>
+			<tr>
+				<td style="color: #54575A; font-size: 12px; font-family: Arial; padding:0 0 7px; position:relative; top : -8px;">Frontend teacher</td>
+			</tr>
+			<tr>
+				<td >
+					<a href="mailto:carlos@adalab.es" style="color: #0A9C8D; font-size: 12px; font-family: Arial; ">carlos@adalab.es</a>
+				</td>
+			</tr>
+		</table>
 	</main>
 </body>
 </html>
