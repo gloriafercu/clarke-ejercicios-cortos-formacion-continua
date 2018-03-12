@@ -1,58 +1,46 @@
+
+
 .instagram {
-	/* position: relative;
+	position: relative;
 	box-sizing: border-box;
-	width: 16rem;
-	height: 16rem;
+	width: 16em;
+	height: 16em;
 	background: red;
 	margin: 50px auto;
-	border-radius: 60px;
+	border-radius: 3.7em;
 	background: radial-gradient(70% 55%, #EFD882 19%, #F47618 49%, #D22A83 80%, #3F64D2 100%);
-	background-position: 0 35px; */
-
-
-	color: #000;
-	font-size: 180px;
-	background-color: red;
-	width: 256px;
-	height: 256px;
-	position: relative;
-	display: block;
+	background-position: 0 2.2em;
+	font-size: 1em;
 }
-.instagram:before{
-	content:".";
-	position: absolute;
-	left:214px;
-	top:-20px;
-
 .instagram__camera {
-	/* position: absolute;
+	position: absolute;
 	box-sizing: border-box;
-	border: 17px solid #fff;
-	width: 194px;
-	height: 194px;
-	top: 31px;
-	left: 31px;
-	border-radius: 60px; */
+	border: 1.06em solid #fff;
+	width: 12.125em;
+	height: 12.125em;
+	top: 1.9em;
+	left: 1.9em;
+	border-radius: 3.7em;
 }
 .instagram__camera:after {
-	/* content: "";
+	content: "";
 	position: absolute;
 	border-radius: 50%;
-	width: 23px;
-	height: 23px;
+	width: 1.4em;
+	height: 1.4em;
 	background-color: #fff;
-	top: 17px;
-	right: 17px; */
+	top: 1.06em;
+	right: 1.06em;
 }
 .instagram__camera:before {
-	/* content: "";
+	content: "";
 	position: absolute;
 	box-sizing: border-box;
-	width: 99px;
-	height: 99px;
+	width: 6.2em;
+	height: 6.2em;
 	border-radius: 50%;
-	border: 17px solid #fff;
+	border: 1.06em solid #fff;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%); */
+	transform: translate(-50%, -50%);
 }
