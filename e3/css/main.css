@@ -6,12 +6,12 @@ body {
 	border: 1px dashed #eee;
 	border-width: 0 1px;
 	margin: 0 25px;
-	max-width: 924px;
+	max-width: 944px;
 	padding: 3em 0;
 }
 @media all and (min-width: 768px) {
 	.wrapper {
-		margin: 0 50px;
+		margin: 0 32px;
 	}
 }
 @media all and (min-width: 1024px) {

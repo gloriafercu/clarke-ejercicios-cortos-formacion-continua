@@ -1,7 +1,7 @@
 # E3: Una historia de grids
 Parece que en nuestro nuevo departamento de front hay un club secreto y nos ha llegado un mail misterioso con las prueba de acceso: vamos a crear un pequeño sistema de grid con herramientas nuevas y antiguas :) Tendremos que resolverlo con **CSS Grid**, con **Flexbox**, y si nos vemos con fuerza, con **display: inline-block**! ¿Seremos capaces?
 
-Nos entregan un html con un css básico que tendremos que rellenar bajo los comentarios que nos han dejado:
+Nos entregan un html preparado con un css básico que tendremos que rellenar bajo los comentarios que nos han dejado:
 ```css
 /* A Partir de aquí empieza tu código *
 /* Añadir solución de CSSGrid */
@@ -12,9 +12,12 @@ Nos entregan un html con un css básico que tendremos que rellenar bajo los come
 
 /* Añadir solución con display:inline-block */
 
-
 ```
-Tendremos que solucionar nuestro sistema de grid para móviles, tablets y ordenadores de escritorio.
+
+Tendremos que solucionar nuestro sistema de grid con tres breakpoints:
+* 320px - 767px
+* 768px - 1023px
+* 1024px ~
 
 ## Guía del ejercicio
 En la siguiente imagen tenéis el resultado final y una pequeña guía para solucionar la prueba.
@@ -23,23 +26,14 @@ En la siguiente imagen tenéis el resultado final y una pequeña guía para solu
 
 
 ## Retos
-### 1. El html
-Podemos resolver el ejercicio con este html:
-```html
-<div class="instagram">
-	<div class="instagram__camera">
-		<div class="instagram__view"></div>
-		<div class="instagram__lens"></div>
-	</div>
-</div>
-```
+### 1. Márgenes exteriores
+Los márgenes exteriores los da el elemento `.wrapper`, tendremos que asegurarnos que nuestras columnas ocupan todo el ancho disponible sin salirse o quedarse cortos. El elemento `.wrapper` tiene unas líneas discontínuas para que siempre sepamos de dónde a dónde deben llegar nuestras columnas.
 
-Pero si nos venimos arriba y queremos molar mucho podemos usar este otro:
-```html
-<div class="instagram">
-	<div class="instagram__camera"></div>
-</div>
-```
+### 2. Breakpoints
+¿Seremos capaces de mantener el número de columnas para cada breakpoint? Hay unos módulos de contenido preparados para que siempre veamos lo que ocupan nuestras columnas
 
-### 2. Tamaños
-¿Seremos capaces de hacerlo de manera que cambiando el tamaño de fuente de nuesto contenedor `.instagram` aumente o disminuya el icono proporcionalmente?
+### 3. Márgenes interiores
+Conforme avanzan las pruebas veremos que mantener el espaciado entre elementos nos es tan fácil... ¿usaremos selectores avanzados? ¿Margins? ¿Paddings? ¿o todo junto?
+
+### 4. Maquetación prehistórica
+¿Seremos capaces de, sin usar floats, resolver la última parte donde hay que hacer la misma estructura pero solo usando display: inline-block??
