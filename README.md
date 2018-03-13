@@ -32,6 +32,9 @@ git remote add upstream https://github.com/Adalab/clarke-ejercicios-cortos-forma
 git pull upstream master
 ```
 
+
+> **Otra solución** es hacer un fork del repo de ejercicios, clonar los dos en el ordenador y, cuando haya nuevos ejercicios, actualizar el repo original y copiar las carpetas nuevas a nuestro repo forkeado
+
 ### Índice de Ejercicios
 - [ ] E1: Firma de email
 - [ ] E2: Icono de Instagram en CSS
