@@ -27,7 +27,7 @@ En la siguiente imagen tenéis el resultado final y una pequeña guía para solu
 
 ## Retos
 ### 1. Márgenes exteriores
-Los márgenes exteriores los da el elemento `.wrapper`, tendremos que asegurarnos que nuestras columnas ocupan todo el ancho disponible sin salirse o quedarse cortos. El elemento `.wrapper` tiene unas líneas discontínuas para que siempre sepamos de dónde a dónde deben llegar nuestras columnas.
+Los márgenes exteriores los da el elemento `.wrapper`, tendremos que asegurarnos que nuestras columnas ocupan todo el ancho disponible sin salirse o quedarse cortos. El elemento `.wrapper` tiene unas líneas discontinuas para que siempre sepamos de dónde a dónde deben llegar nuestras columnas.
 
 ### 2. Breakpoints
 ¿Seremos capaces de mantener el número de columnas para cada breakpoint? Hay unos módulos de contenido preparados para que siempre veamos lo que ocupan nuestras columnas

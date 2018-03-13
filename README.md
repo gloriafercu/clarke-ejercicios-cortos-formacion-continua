@@ -38,6 +38,7 @@ git pull upstream master
 ### Índice de Ejercicios
 - [ ] E1: Firma de email
 - [ ] E2: Icono de Instagram en CSS
+- [ ] E3: Una historia de grids
 
 ## Notas finales
 Estos ejercicios son totalmente voluntarios y hay reservado un espacio para dudas como viene explicado en la presentación de la [Formación continua, en el Gtibook del curso](https://adalab.gitbooks.io/curso-programacion-front-end-2018/content/formacion-continua/0_presentacion.html)
