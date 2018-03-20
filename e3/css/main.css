@@ -43,6 +43,84 @@ li {
 /* A Partir de aquí empieza tu código *
 /* Añadir solución de CSSGrid */
 
+.cssgrid-grid {
+	display: grid;
+}
+
+@media all and (min-width: 768px) {
+	.cssgrid-grid {
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 10px;
+		grid-column-gap: 32px;
+	}
+}
+@media all and (min-width: 1024px) {
+	.cssgrid-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 40px;
+	}
+}
+
 /* Añadir solución de Flexbox */
 
+.flex-grid {
+	display: flex;
+	flex-direction: column;
+}
+
+@media all and (min-width: 768px) {
+	.flex-grid {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.flex-grid__item {
+		width: calc(50% - 32px/2);
+	}
+}
+@media all and (min-width: 1024px) {
+	.flex-grid {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.flex-grid__item {
+		width: calc(100%/3 - 80px/3);
+	}
+}
+
 /* Añadir solución con display:inline-block */
+.inline-grid {
+	display: inline-block;
+	width: 100%;
+}
+
+@media all and (min-width: 768px) {
+	.inline-grid__item {
+		box-sizing: border-box;
+		display: inline-block;
+		width: calc(50% - 32px/2);
+	}
+	.inline-grid__item:nth-child(2n+1) {
+		margin-right: 32px;
+	}
+}
+@media all and (min-width: 1024px) {
+	.inline-grid__item {
+		display: inline-block;
+		box-sizing: border-box;
+		width: calc(100%/3 - 80px/3);
+	}
+	.inline-grid__item:nth-child(2n+1) {
+		margin-right: 0;
+	}
+	.inline-grid__item:nth-child(2),
+	.inline-grid__item:nth-child(5) {
+		margin: 0 40px;
+	}
+	/* .inline-grid__item:nth-child(2n) {
+		margin-r: 0 5px;
+	} */
+}
